@@ -23,7 +23,7 @@ app.use(express.json());
 
 //start server
 app.listen(port,()=>{
-    console.log(Server running on port,port);
+    console.log('Server running on port',port);
 });
 
 //example Route: Get all cards
